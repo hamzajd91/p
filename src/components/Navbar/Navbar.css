@@ -1,0 +1,147 @@
+.modal {
+  height: unset !important;
+}
+.nav_area {
+  background-color: var(--Bgwhite) !important;
+  z-index: 20;
+}
+.modal-body {
+  padding: 0px !important;
+  padding-bottom: 10px !important;
+}
+.modal-dialog {
+  height: 100vh !important;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.modal_options {
+  font-size: 32px;
+  font-weight: 700;
+}
+.modal-header {
+  background-color: var(--blue) !important;
+  color: var(--Bgwhite) !important;
+  height: 0px !important;
+  padding-block: 40px !important;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+.modal_heading {
+  font-size: 24px !important;
+}
+
+.modal-content {
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+.close {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: var(--Bgwhite) !important;
+  font-size: 30px !important;
+}
+.navbar_profile {
+  margin-block: auto !important;
+  font-size: 30px !important;
+}
+.navbar a {
+  color: #000000;
+  opacity: 1 !important;
+  font-weight: 600;
+  margin-inline: 6px;
+}
+.navbar button {
+  color: var(--modalTextBlue) !important;
+  font-weight: 700 !important;
+  font-size: var(--size18) !important;
+}
+.navbar {
+  background-color: "#F9F9F9" !important;
+  background: "#F9F9F9" !important;
+}
+.text18 {
+  font-size: var(--size18) !important;
+  color: var(--blue) !important;
+}
+
+.navbar-toggler-icon {
+  opacity: 0.5;
+  background-image: url("https://cdn.iconscout.com/icon/free/png-256/burger-menu-3132626-2638855.png");
+}
+
+.scale-in-center {
+  overflow: hiddenW;
+  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.logochange {
+  display: inline;
+}
+
+.logochange2 {
+  display: none;
+}
+
+.MuiMenu-list {
+  outline: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav_droptext {
+  color: #000000 !important;
+}
+/* 
+.nav_droptext:hover{
+  color: blueviolet !important;
+} */
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  width: -webkit-fill-available;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  border-radius: 30px;
+}
+/* ======================== For mobile screen =================================*/
+@media only screen and (max-width: 600px) {
+  .logochange {
+    display: none;
+  }
+
+  .logochange2 {
+    display: inline;
+  }
+}
+
+/* ======================== Key Frames ========================= */
+
+@-webkit-keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}

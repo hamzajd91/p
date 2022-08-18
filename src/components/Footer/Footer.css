@@ -1,0 +1,119 @@
+.footer_text {
+  font-size: var(--size16);
+  color: var(--fontGray);
+  font-weight: 500;
+}
+.footer_heading {
+  font-size: var(--size16);
+  color: var(--colorDark);
+  font-weight: 700;
+}
+.footer_right_top {
+  width: fit-content;
+}
+.Social_icons {
+  display: flex;
+  flex-direction: row;
+}
+.Footer_links div {
+  margin-right: 24px;
+  font-size: var(--size16);
+  font-weight: 600;
+  color: var(--colorDark) !important;
+}
+.Footer_links div a {
+  font-size: var(--size16);
+  font-weight: 600;
+  letter-spacing: 1.12px;
+  color: var(--colorDark) !important;
+  text-decoration: none !important;
+}
+.Social_icons div {
+  display: flex;
+  padding: 4px 4px;
+  margin-right: 6px;
+  border-radius: 50%;
+  border: 1px solid var(--colorGray);
+}
+.Link_heading {
+  font-size: 17px;
+  font-weight: bolder;
+}
+.input_footer_div {
+  padding-bottom: 18px;
+  padding-top: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 800px;
+  background: #f1f1f1;
+}
+.input_footer_div input {
+  border: none !important;
+  outline: none !important;
+  width: 72%;
+  padding-inline: 12px !important;
+  background: transparent !important;
+}
+.input_right_text {
+  font-size: var(--size18);
+  color: var(--blue);
+  font-weight: bolder;
+  float: right;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 768px) {
+  .Footer_links div {
+    margin-right: 12px;
+  }
+  .footer_text {
+    font-size: var(--size16);
+    color: var(--fontGray);
+    font-weight: 500;
+  }
+  .footer_heading {
+    font-size: var(--size16);
+    color: var(--colorDark);
+    font-weight: 700;
+  }
+  .sm_width_set {
+    width: 100% !important;
+  }
+  .Social_icons {
+    align-self: center;
+  }
+  .input_footer_div {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 800px;
+    background: #f1f1f1;
+  }
+  .input_right_text {
+    font-size: var(--size16);
+    color: var(--blue);
+    font-weight: bolder;
+    float: right;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+  .input_footer_div input {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer_text {
+    font-size: 14px;
+    color: var(--fontGray);
+    font-weight: 500;
+    text-align: center;
+  }
+  .footer_heading {
+    font-size: var(--size16);
+    color: var(--colorDark);
+    font-weight: 700;
+  }
+}

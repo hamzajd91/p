@@ -1,0 +1,214 @@
+.Checkout-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.Checkout-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  width: 500px;
+  padding-bottom: 20px;
+  box-shadow: 0 10px 6px -6px rgba(119, 119, 119, 0.267);
+}
+
+.Checkout-top {
+  background: #5d34ff;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.item-subtotal-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.item-subtotal-left {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.item-subtotal-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.checkout-line {
+  opacity: 0.5 !important;
+  width: 96%;
+  margin-top: 0px;
+}
+
+.product-image {
+  background-image: url("./assets/checkoutimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  border-radius: 9px;
+}
+
+.lastrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.Checkout-button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.CD-image-div {
+  width: 30%;
+  /* background-color: red; */
+  object-fit: contain;
+  /* height: 200px; */
+}
+
+.P-detailslower-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.P-detailslower-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 90%;
+}
+.P-detailslower-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: fit-content;
+}
+
+.d2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* width: 100%; */
+  padding-right: 8px;
+}
+
+.CD-details-div {
+  width: 70%;
+  /* background-color: rgb(0, 217, 255); */
+  display: flex;
+}
+.CD-details-div2 {
+  /* background-color: rgb(233, 180, 211); */
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.CD-checkoutimg {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.CD-details-left {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.CD-details-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dumb {
+  justify-content: center;
+}
+
+.MuiOutlinedInput-input{
+  padding-block: 6px !important;
+    width: 130px !important;
+    padding-inline: 10px;
+}
+/* MEdia queries */
+/* ======================== For medium screen =================================*/
+
+@media only screen and (max-width: 992px) {
+  .CD-image-div {
+    object-fit: contain;
+    /* height: 200px; */
+  }
+}
+/* ======================== For tablet screen =================================*/
+
+@media only screen and (max-width: 768px) {
+  .Checkout-body {
+    width: 80% !important;
+  }
+}
+
+.CD-checkoutimg {
+  object-fit: contain;
+}
+
+.CD-image-div {
+  object-fit: contain;
+  /* height: 400px; */
+}
+
+/*..................*/
+@media only screen and (min-width: 768px) {
+  .CD-image-div {
+    object-fit: contain;
+    /* height: 200px; */
+  }
+}
+/* ======================== For mobile screen =================================*/
+@media only screen and (max-width: 600px) {
+  .Checkout-body {
+    width: 80% !important;
+  }
+
+
+
+  .CD-image-div {
+    /* width: 30%; */
+
+    object-fit: contain;
+    /* height: 400px; */
+  }
+  .lastrow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Checkout-button-div {
+    justify-content: center;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .quantitysplit{
+    /* flex-direction: column; */
+    height: 70px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+  }
+
+  .quantity_split{
+    /* justify-content: flex-start !important; */
+  }
+}

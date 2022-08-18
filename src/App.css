@@ -1,0 +1,106 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+ :root {
+   --blue: #5d34ff;
+   --Bgwhite: #F9F9F9;
+   --colorWhite: #ffffff;
+   --colorDark: #000000;
+   --size16: 16px;
+   --size18: 18px;
+   --size24: 24px;
+   --fontGray: #aaaaaa;
+   --searchBorder: #dddddd;
+   --modalTextBlue: #2a1971;
+   --colorGray: #999999;
+ }
+ 
+ /* ============================= Animations ============================= */
+ .enlarge {
+   -moz-osx-font-smoothing: grayscale;
+   backface-visibility: hidden;
+   transform: translateZ(0);
+   transition: transform 0.25s ease-out;
+ }
+ 
+ .enlarge:hover,
+ .enlarge:focus {
+   transition: transform 0.25s ease-out;
+   transform: scale(1.15);
+ }
+ 
+ 
+ /* =================== scroll bar =================== */
+ /* width */
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(202, 202, 202);
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:  rgb(156, 156, 156); 
+}
+ /*====================== Home ==========================*/
+ @import url("./components/Home/Home.css");
+ 
+ /*====================== Navbar ==========================*/
+ /* @import url("./reusableStyles/Dropdown.css");
+ 
+ /*====================== Navbar ==========================*/
+ /* @import url("./components/ArtistProfile/ArtistProfile.css"); */
+ /*====================== Navbar ==========================*/
+ 
+ /*====================== Navbar ==========================*/
+ /* @import url("./components/Explore/AllNfts.css"); */
+ 
+ /*====================== Navbar ==========================*/
+ /* @import url("./components/CardDetails/CardDetails.css"); */
+ @font-face {
+   font-family: "RalewayExtraBold";
+    src :url('./Fonts/Raleway-ExtraBold.ttf') format('truetype'); 
+ } 
+ 
+ .App {
+   /* font-family: "Montserrat", sans-serif; */
+   font-family: "Raleway";
+   background: var(--Bgwhite);
+   max-width: 1440px;
+   font-size: var(--size16);
+ }
+ 
+ 
+ /* MEdia queries */
+ /* ======================== For tablet screen =================================*/
+ 
+ @media only screen and (max-width: 992px) {
+   .App {
+     background: var(--Bgwhite);
+   }
+ }
+ /* ======================== For medium screen =================================*/
+ 
+ @media only screen and (max-width: 768px) {
+   .App {
+     background: var(--Bgwhite);
+   }
+ }
+ 
+ 
+ 
+ /* ======================== For mobile screen =================================*/
+ @media only screen and (max-width: 600px) {
+   .App {
+     background: var(--Bgwhite);
+   }
+ }
+ 

@@ -1,0 +1,96 @@
+.dropdown .btn-primary {
+  color: var(--blue) !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  font-size: var(--size24) !important;
+  font-weight: 900 !important;
+  display: flex;
+}
+
+.dropdown-toggle::after {
+  align-self: center;
+}
+
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none !important;
+  color: var(--blue);
+}
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: var(--blue);
+  box-shadow: none !important;
+}
+.topSellerLink a {
+  font-size: var(--size18) !important;
+  font-weight: 700 !important;
+  color: var(--blue) !important;
+}
+.creator_list {
+  flex: 1;
+}
+
+.topcreateimage {
+  transition: 0.3s;
+  box-shadow: 2px 2px 5px #2928285e;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.topcreateimage:hover {
+  transition: 0.3s;
+  box-shadow: 6px 7px 10px #2928285e;
+}
+
+.creator {
+  width: auto !important;
+  padding-inline: 12px !important;
+  margin-block: 5px;
+  flex: 0.2;
+}
+. @media only screen and (max-width: 768px) {
+  .topSellerLink a {
+    font-size: 14px !important;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .Heading_Dropdown {
+    align-self: flex-start !important;
+  }
+}
+
+/* ======================== For tablet screen =================================*/
+
+@media only screen and (max-width: 992px) {
+  .topSellerLink a {
+    font-size: 14px !important;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .Heading_Dropdown {
+    display: flex;
+    align-self: flex-start !important;
+  }
+  .dropdown .btn-primary {
+    color: var(--blue);
+    background-color: transparent !important;
+    border-color: transparent !important;
+    font-size: var(--size16) !important;
+    font-weight: 900 !important;
+  }
+}
+
+/* ======================== For mobile screen =================================*/
+@media only screen and (max-width: 600px) {
+  .topSellerLink a {
+    font-size: 14px !important;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .Heading_Dropdown {
+    align-self: flex-start !important;
+  }
+}

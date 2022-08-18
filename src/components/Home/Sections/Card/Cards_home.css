@@ -1,0 +1,135 @@
+.Large_img {
+  height: 550px;
+  border-radius: 8px !important;
+}
+.shadowdiv {
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.small_div div {
+  min-height: 271px !important;
+}
+
+.card_main_container {
+  margin-top: -6rem !important;
+}
+.img_large {
+  background: linear-gradient(0deg, #e5e5e5, #e5e5e5) !important;
+  border-radius: 4px;
+}
+.small_img_cont div div {
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px #2928285e;
+  transition: 0.3s;
+}
+.small_img_cont div div:hover {
+  box-shadow: 10px 10px 10px #2928285e;
+  transition: 0.3s;
+}
+.Nft_Starter_button {
+  background-color: var(--blue);
+  width: 50%;
+}
+.text_alteration {
+  font-size: var(--size16);
+  border-radius: 4px;
+}
+
+.card_image_area {
+  background: linear-gradient(0deg, #e5e5e5, #e5e5e5), url();
+  min-height: 218px !important;
+}
+.card_heart {
+  top: 10px;
+  right: 10px;
+}
+.heart_styling {
+  /* border: 1px solid var(--fontGray); */
+}
+.heart_styling {
+  color: var(--fontGray);
+  transition: 0.3s ease-in-out;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.heart_styling:hover {
+  color: var(--blue);
+  transition: 0.3s ease-in-out;
+}
+
+.img_div_flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.main_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.set_wallet_div {
+  margin-right: 20px;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-inline: 10px;
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.kraftimg {
+}
+/* MEdia queries */
+
+/* ======================== For large screen =================================*/
+
+@media only screen and (max-width: 971px) {
+  .card_main_container {
+    margin-top: 0px !important;
+  }
+
+  .img_div_flex {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .main_row {
+    flex-direction: column;
+  }
+
+  .col-6 {
+    width: 100% !important;
+  }
+
+  .kraftimg {
+    display: none;
+  }
+}
+
+/* ======================== For medium screen =================================*/
+
+@media only screen and (max-width: 768px) {
+  .card_main_container {
+    margin-top: 0px !important;
+  }
+}
+
+/* ======================== For tablet screen =================================*/
+
+@media only screen and (max-width: 992px) {
+  .card_main_container {
+    margin-top: 0px !important;
+  }
+}
+
+/* ======================== For mobile screen =================================*/
+@media only screen and (max-width: 600px) {
+  .card_main_container {
+    margin-top: 0px !important;
+  }
+}

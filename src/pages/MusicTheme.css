@@ -1,0 +1,11 @@
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.musiccol{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

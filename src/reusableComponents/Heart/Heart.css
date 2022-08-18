@@ -1,0 +1,16 @@
+.heart-stroke{
+    color: #2A1971;
+    height: 17px;
+    width: 17px;
+    color: #E5E5E5;
+    stroke:#2A1971;
+    stroke-width: 50;
+}
+
+.heart-fill{
+    color: #2A1971;
+    stroke:#2A1971;
+    stroke-width: 50;
+    height: 17px;
+    width: 17px;
+}

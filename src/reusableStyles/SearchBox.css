@@ -1,0 +1,308 @@
+.banner_Input2 {
+  font-size: var(--size18);
+  font-weight: 400;
+  width: 451px;
+  background-color: white;
+  color: var(--colorGray);
+  height: 61px;
+  border-radius: 29px;
+  padding-right: 12px;
+}
+.search_div2 {
+  width: 55px;
+  height: auto;
+}
+.search_icon2 {
+  font-size: 21px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+.input_div2 {
+  margin-block: auto;
+  height: auto;
+}
+
+.input_value2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  border: none;
+  font-size: var(--size16) !important;
+}
+.input_value2:focus-visible {
+  border: none !important;
+  outline: none !important;
+  font-size: var(--size16) !important;
+}
+@media only screen and (max-width: 600px) {
+  .banner_Input2 {
+    height: 30px;
+    font-size: 15px;
+    width: 70% !important;
+  }
+}
+
+.css-3iigni-container {
+  pointer-events: none;
+  position: relative;
+  box-sizing: border-box;
+  min-width: 130px !important;
+}
+.css-1s2u09g-control {
+  border-style: none !important;
+  min-width: 130px !important;
+}
+.css-1pahdxg-control {
+  box-shadow: none !important;
+  border-style: none !important;
+  min-width: 130px !important;
+}
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #f50057;
+  color: #5d34ff !important;
+}
+
+.WithStyles\(ForwardRef\(InputBase\)\)-input-12:focus {
+  box-shadow: 0 0 0 0.2rem grey !important;
+  border-color: black !important;
+  background-color: transparent !important;
+}
+.navbar button {
+  background-color: transparent !important;
+}
+.btn-primary {
+  color: #fff !important;
+  background-color: #5d34ff !important;
+  border-color: #5d34ff !important;
+}
+.MuiChip-root {
+  color: white !important;
+  background-color: #5d34ff !important;
+}
+.MuiSelect-select:focus {
+  background-color: transparent !important;
+}
+.css-1n7v3ny-option {
+  background-color: #baadfd !important;
+  opacity: 70%;
+}
+@media only screen and (max-width: 1700px) {
+  .MuiSelect-selectMenu {
+    min-width: 480px !important;
+  }
+}
+/*for Table*/
+@media only screen and (max-width: 992px) {
+  .MuiSelect-selectMenu {
+    min-width: 300px !important;
+  }
+}
+/*for Medium*/
+@media only screen and (max-width: 768px) {
+  .MuiSelect-selectMenu {
+    min-width: 200px !important;
+  }
+}
+/*for Mobile*/
+@media only screen and (max-width: 600px) {
+  .MuiSelect-selectMenu {
+    min-width: 90px !important;
+  }
+}
+.css-9gakcf-option {
+  background-color: #af9cff !important;
+}
+.MuiFormGroup-root {
+  flex-direction: row !important;
+}
+.MuiRadio-colorSecondary.Mui-checked {
+  color: #5d34ff !important;
+}
+/* MEdia queries */
+
+/* ======================== For tablet screen =================================*/
+
+@media only screen and (max-width: 992px) {
+  .banner_Input2 {
+    font-size: var(--size18);
+    font-weight: 400;
+    width: 250px;
+    background-color: white;
+    color: var(--colorGray);
+    height: 50px;
+    border-radius: 29px;
+    padding-right: 12px;
+  }
+  .search_div2 {
+    width: 50px;
+    height: auto;
+  }
+  .search_icon2 {
+    font-size: 19px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+  }
+  .input_div2 {
+    margin-block: auto;
+    height: auto;
+  }
+
+  .input_value2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    border: none;
+    font-size: var(--size16) !important;
+  }
+  .input_value2:focus-visible {
+    border: none !important;
+    outline: none !important;
+    font-size: var(--size16) !important;
+  }
+  @media only screen and (max-width: 600px) {
+    .banner_Input2 {
+      height: 30px;
+      font-size: 15px;
+      width: 100% !important;
+    }
+  }
+}
+
+/* ======================== For medium screen =================================*/
+
+@media only screen and (max-width: 768px) {
+  .banner_Input2 {
+    font-size: var(--size18);
+    font-weight: 400;
+    width: 451px;
+    background-color: white;
+    color: var(--colorGray);
+    height: 61px;
+    border-radius: 29px;
+    padding-right: 12px;
+  }
+  .search_div2 {
+    width: 55px;
+    height: auto;
+  }
+  .search_icon2 {
+    font-size: 21px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+  }
+  .input_div2 {
+    margin-block: auto;
+    height: auto;
+  }
+
+  .input_value2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    border: none;
+    font-size: var(--size16) !important;
+  }
+  .input_value2:focus-visible {
+    border: none !important;
+    outline: none !important;
+    font-size: var(--size16) !important;
+  }
+  @media only screen and (max-width: 600px) {
+    .banner_Input2 {
+      height: 30px;
+      font-size: 15px;
+      width: 70% !important;
+    }
+  }
+}
+
+/* ======================== For mobile screen =================================*/
+@media only screen and (max-width: 600px) {
+  .banner_Input2 {
+    font-size: var(--size18);
+    font-weight: 400;
+    width: 451px;
+    background-color: white;
+    color: var(--colorGray);
+    height: 61px;
+    border-radius: 29px;
+    padding-right: 12px;
+  }
+  .search_div2 {
+    width: 55px;
+    height: auto;
+  }
+  .search_icon2 {
+    font-size: 21px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+  }
+  .input_div2 {
+    margin-block: auto;
+    height: auto;
+  }
+
+  .input_value2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    border: none;
+    font-size: var(--size16) !important;
+  }
+  .input_value2:focus-visible {
+    border: none !important;
+    outline: none !important;
+    font-size: var(--size16) !important;
+  }
+  @media only screen and (max-width: 600px) {
+    .banner_Input2 {
+      height: 30px;
+      font-size: 15px;
+      width: 70% !important;
+    }
+  }
+}
+
+.editImg {
+  cursor: pointer;
+}
+.editImg:hover {
+  height: 19px;
+  width: 19px;
+}
+
+.delete_icon:hover {
+  color: red !important;
+  font-size: 17px !important;
+  cursor: pointer;
+}
+
+.plusSign:hover {
+  cursor: pointer;
+  height: 42px;
+  width: 42px;
+}

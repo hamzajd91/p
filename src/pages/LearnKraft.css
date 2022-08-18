@@ -1,0 +1,148 @@
+.ImageDetails_outer_container {
+  min-height: 80vh;
+  width: 100vw;
+  /* background-color: blue; */
+  background-image: "none";
+  object-fit: cover;
+  background-position: fill;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.LearnKraft_outer_container {
+  background-image: url(../Assets/ImageDetailBanner.svg);
+}
+@media only screen and (max-width: 992px) {
+  .Comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+.banner_heading {
+  font-size: 48px;
+  font-weight: 700;
+}
+.banner_text {
+  font-size: var(--size18);
+  font-weight: 500;
+  margin-bottom: 63px;
+}
+.banner_Input {
+  font-size: var(--size18);
+  font-weight: 400;
+  width: 50%;
+  background-color: white;
+  color: var(--colorGray);
+  height: 60px;
+  border-radius: 29px;
+  padding-right: 12px;
+}
+.banner_content {
+  min-height: 100vh;
+}
+/* .input_value {
+  width: 50px;
+} */
+
+.search_div {
+  width: 55px;
+  height: auto;
+}
+.search_icon {
+  font-size: 21px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+.input_div {
+  margin-block: auto;
+  height: auto;
+}
+.input_value {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  border: none;
+  font-size: var(--size16) !important;
+}
+.input_value:focus-visible {
+  border: none !important;
+  outline: none !important;
+  font-size: var(--size16) !important;
+}
+
+/* Media query */
+/* ======================== For medium screen =================================*/
+
+@media only screen and (max-width: 992px) {
+  .ImageDetails_outer_container {
+    min-height: auto;
+    /* background-size: contain !important; */
+    background-size: 100% auto !important;
+  }
+  .banner_content {
+    min-height: 190px;
+  }
+  .banner_Input {
+    height: 35px;
+    font-size: var(--size16);
+  }
+  .input_div {
+  }
+  .input_value {
+  }
+  .input_value:focus-visible {
+  }
+}
+
+/* ======================== For tablet screen =================================*/
+
+@media only screen and (max-width: 768px) {
+  .ImageDetails_outer_container {
+    min-height: auto;
+    /* background-size: contain !important; */
+    background-size: 100% auto !important;
+  }
+  .banner_content {
+    min-height: 190px;
+  }
+  .banner_Input {
+    height: 35px;
+    font-size: var(--size16);
+    width: 60%;
+  }
+  .input_div {
+  }
+  .input_value {
+  }
+  .input_value:focus-visible {
+  }
+}
+
+/* ======================== For mobile screen =================================*/
+@media only screen and (max-width: 600px) {
+  .ImageDetails_outer_container {
+    min-height: auto;
+    background-size: 100% auto !important;
+  }
+  .banner_content {
+    min-height: 190px;
+  }
+  .banner_Input {
+    height: 30px;
+    font-size: 15px;
+    width: 70% !important;
+  }
+  .input_div {
+  }
+  .input_value {
+  }
+  .input_value:focus-visible {
+  }
+}

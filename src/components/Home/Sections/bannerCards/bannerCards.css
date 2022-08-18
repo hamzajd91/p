@@ -1,0 +1,97 @@
+.bannerCards_area {
+  min-height: 618px;
+  margin-top: -4rem;
+  background-image: url(./assets/bannerCardBG.jpg);
+  background-size: cover;
+}
+
+.bannerCards{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.col_div_bannerCards {
+  min-height: 430px;
+  display: flex;
+
+}
+.banner_image{
+ width: -webkit-fill-available;
+ max-width: 320px;
+ object-fit: cover;
+ height: 430px;
+ cursor: pointer;
+
+}
+
+.flag_image{
+  width: 200px;
+  height: 300px;
+  margin-top: -9rem;
+}
+
+.flame-icon1{
+ position: absolute;
+ z-index: 0;
+}
+
+.flame-icon2{
+ position: absolute;
+  z-index: 2;
+}
+  
+.sliderWidth{
+  width: 75% !important;
+}
+
+
+/* ======================== For medium screen =================================*/
+
+@media only screen and (max-width: 768px) {
+  .flag_image{
+    margin-top: 4rem;
+  }
+  .flame_div{
+      margin-top: 50px;
+  }
+  .flag_font{
+      margin-top: 50px;
+  }
+
+  .sliderWidth{
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 771px) {
+
+  .flame_div{
+    margin-left: 30%;
+      margin-right: auto;
+      margin-top: 50px;
+  }
+  .flag_font{
+    margin-left: 30%;
+      margin-right: auto;
+      margin-top: 50px;
+  }
+
+  
+}
+
+/* ======================== For tablet screen =================================*/
+
+@media only screen and (max-width: 992px) {
+  .flag_image{
+    /* margin-top: 4rem; */
+  }
+}
+
+/* ======================== For mobile screen =================================*/
+@media only screen and (max-width: 600px) {
+  .card_main_container {
+    margin-top: 0px !important;
+  }
+}
